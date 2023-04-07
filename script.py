@@ -71,9 +71,9 @@ with open('csv/resultados.csv', newline='') as csvfile:
             
             if respostas[i] == gabarito[i]:
                 acertos += 1
-                erros.write(f'Questão {i+1}\n')
+                erros.write(f'Questão {i+1} correta\n')
             else:
-                erros.write(f'Questão {i+1} - {respostas[i]}\n')
+                erros.write(f'Questão {i+1} = {respostas[i]}\n')
 
         
         resultados.write(f'{nomeAluno} - {acertos}\n')

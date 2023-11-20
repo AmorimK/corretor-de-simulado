@@ -14,5 +14,5 @@ O script importará o **.csv** gerado pelo **FormScanner** e um arquivo **.txt**
 
 ## Autor
 
-<a href="github.com/amorimk">Kauã Amorim</a>
+- <a href="github.com/amorimk">Kauã Amorim</a>
 
